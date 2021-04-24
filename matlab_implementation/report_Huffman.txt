@@ -1,0 +1,11 @@
+Huffman Coding Result Report:
+--------
+Index	 Symbol	 Frequency	 Length		 Code
+1	 A	 0.28		 2		 00
+2	 B	 0.20		 2		 11
+3	 C	 0.16		 3		 011
+4	 D	 0.16		 3		 010
+5	 E	 0.14		 3		 101
+6	 F	 0.06		 3		 100
+--------
+Entropy: 2.5200 bit 
