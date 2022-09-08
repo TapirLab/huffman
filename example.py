@@ -10,8 +10,8 @@ README.md or visit GitHub page
 %% Huffman Coding
 %% -------------------
 %% $Author: Halil Said Cankurtaran$,
-%% $Date: January 5th, 2020$,
-%% $Revision: 1.1$
+%% $Date: August 8th, 2022$,
+%% $Revision: 1.2$
 %% $Tapir Lab.$
 %% $Copyright: Tapir Lab.$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

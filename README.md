@@ -43,15 +43,15 @@ After installing requirement (numpy), this repo can be tested by executing the `
 """
 This file shows how Huffman coding and decoding are performed. Initially,
 a random text is generated. Then, Huffman coding is performed, and results are
-saved as different files to the same folder. For more information please visit
-read README.md or visit GitHub page
+saved as different files to the same folder. For more information please read
+README.md or visit GitHub page
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Huffman Coding
 %% -------------------
 %% $Author: Halil Said Cankurtaran$,
-%% $Date: January 5th, 2020$,
-%% $Revision: 1.1$
+%% $Date: August 8th, 2022$,
+%% $Revision: 1.2$
 %% $Tapir Lab.$
 %% $Copyright: Tapir Lab.$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -60,7 +60,7 @@ import os
 import huffman as huff
 
 if __name__ == "__main__":
-    # If you want to read input text directly from a file plase configure followings
+    # If you want to read input text directly from a file please configure followings
     # and comment out random text generation
     # file_name = 'input_text.txt'
     # path_to_text_file = os.path.join('.', 'sample_input', file_name)
@@ -113,7 +113,7 @@ if __name__ == "__main__":
     print("Decoded Text: ", decoded_text)
     print("--------------------------")
     print(f'Expected length = {expected_length}')
-    print(f'Entropy = {shannon_entropy}')
+    print(f'Shannon Entropy = {shannon_entropy}')
     print("--------------------------")
     print("Reports also saved into sample_output folder")
 ```

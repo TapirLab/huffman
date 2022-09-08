@@ -8,8 +8,8 @@ can be used to perform a Huffman coding and decoding.
 %% Huffman Coding
 %% -------------------
 %% $Author: Halil Said Cankurtaran$,
-%% $Date: January 5th, 2020$,
-%% $Revision: 1.1$
+%% $Date: August 8th, 2022$,
+%% $Revision: 1.2$
 %% $Tapir Lab.$
 %% $Copyright: Tapir Lab.$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -276,9 +276,11 @@ def encode_message(dictionary, text):
     # In case a symbol is detected out of dictionary stop encoding!
     # Explain procedure 
     assert set(text).issubset(set(dictionary.keys())), 'A symbol detected out of dictionary!'
-    for symbol in dictionary.keys():
-        text = text.replace(symbol, dictionary[symbol])
-    return text
+    output_text = ""
+    for elem in text:
+        output_text = output_text + dictionary[elem]
+
+    return output_text
 
 
 def decode_message(encoded_text, dictionary):
